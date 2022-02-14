@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.container{
+    height: 100vh;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .left{
+    flex: 1;
+}
+
+.container .right{
+    flex: 2;
+}
+.container .left h1{
+    color: transparent;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+    animation: text_reveal .5s ease forwards;
+}
+.container .left h1 span{
+    background: rgba(220, 20, 60);
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    animation: overlay 1s ease forwards;
+    animation-delay: .5s;
+}
+@keyframes overlay{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal{
+    100%{
+        color: crimson;
+    }
+}
+
+

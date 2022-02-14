@@ -1,0 +1,28 @@
+body{
+    background: #082429;
+    
+}
+.leaf{
+    width:150px;
+    height: 150px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    position: absolute;
+
+}
+.yellow{
+     background-color: #f3ac3c;
+    left: 175px;
+    top: 75px;
+}
+.green{
+    background: #1A4341;
+    left: 100px;
+    top: 75px;
+    
+}
+.middle{
+    background: #998235;
+    left: 140px;
+    top: 75px;
+}

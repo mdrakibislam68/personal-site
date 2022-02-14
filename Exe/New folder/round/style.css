@@ -1,0 +1,71 @@
+body{
+    background: blue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+        overflow: hidden;
+
+}
+.wrap{
+    width: 500px;
+    height: 500px;
+        position: relative;
+    overflow: hidden;
+
+}
+.left{
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 70px auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+        overflow: hidden;
+
+}
+.right{
+    width: 150px;
+    height: 150px;
+    background: black;
+    margin: 70px auto;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    overflow: hidden;
+
+}
+.middle{
+    width: 150px;
+    height: 150px;
+    background: red;
+    position: absolute;
+    left: -100px;
+    clip-path: circle(75px at center);
+}
+/*another system*/
+/*
+.exe{
+    position: absolute;
+    overflow: hidden;
+    width: 25px;
+    height: 112px;
+    background: #7b3f61;
+    left: 46.5%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.circle{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #09042a;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+*/

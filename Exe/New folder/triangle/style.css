@@ -1,0 +1,27 @@
+body{
+    background: #007065;
+    
+}
+div{
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 100px solid #f5c181;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.a{
+    border-bottom-color: #ffeecf;
+    transform: translate(-50%, -100%);
+    z-index: 100;
+/*    visibility: hidden;*/
+}
+.c{
+    border-bottom-color: #00a79d;
+    transform: translate(-50%, -0%);
+    z-index: -1;
+}

@@ -1,0 +1,49 @@
+body{
+    background: #f5d684;
+}
+.wrapper{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.top-mustache{
+    width: 100px;
+    height: 50px;
+    background: #dd6b4d;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+     
+}
+.center-mustache{
+    width: 60px;
+    height: 60px;
+    background: #f5d684;
+   border-radius: 50%;
+    position: absolute;
+    margin-top: 16px;
+    left: 170px;
+     
+}
+.left-mustache{
+    width: 100px;
+    height: 50px;
+    background: #dd6b4d;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+     position: relative;
+    top: 49px;
+    left: -180px;
+}
+.center-mustache-left{
+    width: 63px;
+    height: 60px;
+    background: #f5d684;
+   border-radius: 50%;
+    position: absolute;
+    margin-top: -30px;
+    left: 17px;
+}
